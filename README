@@ -1,0 +1,22 @@
+-- requirement install:
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+    $ pip install pyqt5
+-- Run
+    $ python main_GeraCPF.py 
+
+
+-- Create executable in Linux
+    -- create alias
+
+        $ echo "alias startGeraCPF='~/dev/11-py-graphical/venv/bin/python ~/dev/11-py-graphical/main-GeraCPF.py'" >> ~/.bashrc
+        $ source ~/.bashrc
+        $ startGeraCPF
+
+    -- shortcut on desktop (create <name.desktop> file)
+        [Desktop Entry]
+        Name=GeraCPF
+        Type=Application
+        Icon=/home/eduard/dev/11-py-graphical/icon.png
+        Exec=bash -ic "startGeraCPF"
+        Terminal=false

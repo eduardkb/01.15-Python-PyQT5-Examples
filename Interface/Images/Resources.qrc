@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="Imagens">
+    <file>Help.ico</file>
+    <file>AppIcon.png</file>
+    <file>Lambo.jpg</file>
+  </qresource>
+</RCC>
